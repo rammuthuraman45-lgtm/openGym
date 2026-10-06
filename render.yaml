@@ -11,10 +11,6 @@ services:
         sync: false
       - key: ORIGIN
         sync: false
-    disk:
-      name: opengym-data
-      mountPath: /app/data
-      sizeGB: 1
 
   # The Frontend Static / Web Service 
   - type: web
